@@ -17,9 +17,9 @@ dependencies {
     compileOnly "org.projectlombok:lombok:1.18.36"
     annotationProcessor "org.projectlombok:lombok:1.18.36"
 
-//    implementation("org.jooq:jooq:3.19.17")
-//    implementation("org.jooq:jooq-meta-extensions:3.19.17")
-//    implementation("org.jooq:jooq-meta-extensions-hibernate:3.19.17")
+    implementation("org.jooq:jooq:3.19.17")
+    implementation("org.jooq:jooq-meta-extensions:3.19.17")
+    implementation("org.jooq:jooq-meta-extensions-hibernate:3.19.17")
 
     testImplementation platform('org.junit:junit-bom:5.9.1')
     testImplementation 'org.junit.jupiter:junit-jupiter'

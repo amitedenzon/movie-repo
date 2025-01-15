@@ -1,7 +1,10 @@
 package org.example.entity.DAO;
 
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import lombok.experimental.SuperBuilder;
 
 @Getter
@@ -10,7 +13,7 @@ import lombok.experimental.SuperBuilder;
 @MappedSuperclass
 @NoArgsConstructor
 @AllArgsConstructor
-public abstract class StandardEntity{
+public abstract class StandardEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
