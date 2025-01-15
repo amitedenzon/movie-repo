@@ -1,0 +1,131 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"fc6879c8-ddc5-440a-8f41-a15f9e5293b0\" name=\"Changes\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/.gitignore\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/dataSources.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/gradle.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/uiDesigner.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/build.gradle\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/gradlew\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/gradlew.bat\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/settings.gradle\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/Application.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/controller/ActorController.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/controller/DirectorController.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/controller/MovieController.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/entity/DAO/Actor.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/entity/DAO/DAO.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/entity/DAO/Director.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/entity/DAO/Human.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/entity/DAO/Movie.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/entity/DAO/StandardEntity.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/entity/DTO/ActorDTO.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/entity/DTO/DirectorDTO.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/entity/DTO/HumanDTO.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/entity/DTO/MovieDTO.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/entity/DTO/StandardEntityDTO.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/repository/ActorRepository.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/repository/DirectorRepository.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/repository/MovieRepository.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/service/ActorService.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/service/DirectorService.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/service/EntityGenerationService.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/service/MovieService.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/util/AppRunner.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/application.properties\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ExternalProjectsData\">\n    <projectState path=\"$PROJECT_DIR$\">\n      <ProjectState />\n    </projectState>\n  </component>\n  <component name=\"ExternalProjectsManager\">\n    <system id=\"GRADLE\">\n      <state>\n        <task path=\"$PROJECT_DIR$\">\n          <activation />\n        </task>\n        <projects_view>\n          <tree_state>\n            <expand>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"untitled\" type=\"f1a62948:ProjectNode\" />\n              </path>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"untitled\" type=\"f1a62948:ProjectNode\" />\n                <item name=\"Tasks\" type=\"e4a08cd1:TasksNode\" />\n              </path>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"untitled\" type=\"f1a62948:ProjectNode\" />\n                <item name=\"Tasks\" type=\"e4a08cd1:TasksNode\" />\n                <item name=\"build\" type=\"c8890929:TasksNode$1\" />\n              </path>\n            </expand>\n            <select />\n          </tree_state>\n        </projects_view>\n      </state>\n    </system>\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n        <option value=\"Interface\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 4\n}</component>\n  <component name=\"ProjectId\" id=\"2rg1GOxtImiVxvFV9XP1rI9p4d2\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;Gradle.Build untitled.executor&quot;: &quot;Run&quot;,\n    &quot;Gradle.untitled [:Main.main()].executor&quot;: &quot;Run&quot;,\n    &quot;Gradle.untitled [:org.example.Application.main()].executor&quot;: &quot;Run&quot;,\n    &quot;Gradle.untitled [build].executor&quot;: &quot;Run&quot;,\n    &quot;Gradle.untitled [clean].executor&quot;: &quot;Run&quot;,\n    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,\n    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,\n    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,\n    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;Spring Boot.Application.executor&quot;: &quot;Debug&quot;,\n    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\n    &quot;last_opened_file_path&quot;: &quot;/Users/amit/Documents/Code/Java/untitled/src/main/java/org/example/entity/DTO&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/main/java/org/example/entity/DTO\" />\n      <recent name=\"$PROJECT_DIR$/src/main/java/org/example\" />\n      <recent name=\"$PROJECT_DIR$/src/main/java/org/example/entities\" />\n      <recent name=\"$PROJECT_DIR$/src/main/resources\" />\n    </key>\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"org.example.entity.DTO\" />\n      <recent name=\"org.example.controller\" />\n      <recent name=\"org.example.service\" />\n      <recent name=\"org.example.repository\" />\n      <recent name=\"org.example.entities\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Spring Boot.Application\">\n    <configuration name=\"Application\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.Application\" />\n      <module name=\"untitled.main\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"org.example.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"untitled [build]\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\"build\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <RunAsTest>false</RunAsTest>\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"untitled [clean]\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\"clean\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <RunAsTest>false</RunAsTest>\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"Application\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"untitled.main\" />\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"org.example.Application\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"org.example.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Spring Boot.Application\" />\n        <item itemvalue=\"Gradle.untitled [build]\" />\n        <item itemvalue=\"Gradle.untitled [clean]\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218\" />\n        <option value=\"bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"fc6879c8-ddc5-440a-8f41-a15f9e5293b0\" name=\"Changes\" comment=\"\" />\n      <created>1736965814899</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1736965814899</updated>\n      <workItem from=\"1736966068401\" duration=\"10543000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <pin-to-top-manager>\n      <pinned-members>\n        <PinnedItemInfo parentTag=\"org.example.entity.Actor\" memberName=\"movies\" />\n      </pinned-members>\n    </pin-to-top-manager>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision fbe865b7e279cf3603e41a69fa1a2fe20ce85481)
++++ b/.idea/workspace.xml	(date 1736979359714)
+@@ -4,45 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="fc6879c8-ddc5-440a-8f41-a15f9e5293b0" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Application.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/ActorController.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/DirectorController.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/MovieController.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/DAO/Actor.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/DAO/DAO.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/DAO/Director.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/DAO/Human.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/DAO/Movie.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/DAO/StandardEntity.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/DTO/ActorDTO.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/DTO/DirectorDTO.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/DTO/HumanDTO.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/DTO/MovieDTO.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/DTO/StandardEntityDTO.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/ActorRepository.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/DirectorRepository.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/MovieRepository.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/ActorService.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/DirectorService.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/EntityGenerationService.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/MovieService.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/util/AppRunner.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+-    </list>
++    <list default="true" id="fc6879c8-ddc5-440a-8f41-a15f9e5293b0" name="Changes" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -106,35 +68,35 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;Gradle.Build untitled.executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.untitled [:Main.main()].executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.untitled [:org.example.Application.main()].executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.untitled [build].executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.untitled [clean].executor&quot;: &quot;Run&quot;,
+-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;Spring Boot.Application.executor&quot;: &quot;Debug&quot;,
+-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;/Users/amit/Documents/Code/Java/untitled/src/main/java/org/example/entity/DTO&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "Gradle.Build untitled.executor": "Run",
++    "Gradle.untitled [:Main.main()].executor": "Run",
++    "Gradle.untitled [:org.example.Application.main()].executor": "Run",
++    "Gradle.untitled [build].executor": "Run",
++    "Gradle.untitled [clean].executor": "Run",
++    "RequestMappingsPanelOrder0": "0",
++    "RequestMappingsPanelOrder1": "1",
++    "RequestMappingsPanelWidth0": "75",
++    "RequestMappingsPanelWidth1": "75",
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.git.unshallow": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "Spring Boot.Application.executor": "Debug",
++    "dart.analysis.tool.window.visible": "false",
++    "git-widget-placeholder": "push-to-dev",
++    "kotlin-language-version-configured": "true",
++    "last_opened_file_path": "/Users/amit/Documents/Code/Java/untitled/src/main/java/org/example/entity/DTO",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "settings.editor.selected.configurable": "editor.preferences.completion",
++    "vue.rearranger.settings.migration": "true"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$/src/main/java/org/example/entity/DTO" />
+@@ -259,4 +221,8 @@
+       </pinned-members>
+     </pin-to-top-manager>
+   </component>
++  <component name="XSLT-Support.FileAssociations.UIState">
++    <expand />
++    <select />
++  </component>
+ </project>
+\ No newline at end of file
