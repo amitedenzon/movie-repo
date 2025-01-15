@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc6879c8-ddc5-440a-8f41-a15f9e5293b0" name="Changes" comment="" />
+    <list default="true" id="fc6879c8-ddc5-440a-8f41-a15f9e5293b0" name="Changes" comment="FIX: xml deletion" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +90,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Application.executor": "Debug",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "cedebe0f",
+    "git-widget-placeholder": "develop",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/amit/Documents/Code/Java/untitled/src/main/java/org/example/entity/DTO",
     "node.js.detected.package.eslint": "true",
@@ -234,6 +234,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FIX: xml deletion" />
+    <option name="LAST_COMMIT_MESSAGE" value="FIX: xml deletion" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
