@@ -1,14 +1,12 @@
 package org.example.service;
 
 import org.example.entity.DAO.Movie;
-import org.example.entity.DTO.MovieDTO;
 import org.example.repository.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Service
 public class MovieService {

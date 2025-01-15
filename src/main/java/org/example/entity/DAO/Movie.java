@@ -1,7 +1,10 @@
 package org.example.entity.DAO;
 
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import lombok.experimental.SuperBuilder;
 import org.example.entity.DTO.MovieDTO;
 
