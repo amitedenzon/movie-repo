@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 @SuperBuilder
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "Actor")
+@Table(name = "actor")
 public class Actor extends Human implements DAO<ActorDTO> {
 
     @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)

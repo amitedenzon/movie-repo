@@ -5,6 +5,7 @@ import lombok.*;
 import lombok.experimental.SuperBuilder;
 import org.example.entity.DTO.MovieDTO;
 
+
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -14,7 +15,7 @@ import java.util.stream.Collectors;
 @SuperBuilder
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "Movie")
+@Table(name = "movie")
 public class Movie extends StandardEntity implements DAO<MovieDTO> {
 
     @Column

@@ -13,7 +13,6 @@ import lombok.experimental.SuperBuilder;
 @MappedSuperclass
 @NoArgsConstructor
 @AllArgsConstructor
-@Inheritance(strategy = InheritanceType.JOINED)
 public abstract class Human extends StandardEntity{
 
     @Column
