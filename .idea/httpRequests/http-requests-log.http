@@ -1,0 +1,75 @@
+POST http://localhost:8080/directors
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Nofali Smokel",
+  "catchPhrase": "Mashtina..."
+}
+
+<> 2025-01-17T005445.200.json
+
+###
+
+POST http://localhost:8080/humans
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Nofali Smokel",
+  "catchPhrase": "Mashtina..."
+}
+
+<> 2025-01-17T005432.404.json
+
+###
+
+POST http://localhost:8080/movies
+Content-Type: application/json
+Content-Length: 43
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "2 Girls 1 Cup",
+  "stars": 5
+}
+
+<> 2025-01-17T005322.200.json
+
+###
+
+GET http://localhost:8080/actors
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-01-17T004628.200.json
+
+###
+
+GET http://localhost:8080/directors
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-01-16T150054.200.json
+
+###
+
+GET http://localhost:8080/actors
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-01-16T150021.200.json
+
+###
+

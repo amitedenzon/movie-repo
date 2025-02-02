@@ -1,1 +1,18 @@
+pluginManagement {
+    repositories {
+        maven { url 'https://repo.spring.io/milestone' }
+        maven { url 'https://repo.spring.io/snapshot' }
+        gradlePluginPortal()
+    }
+    plugins {
+        id 'org.springframework.boot' version "3.2.4"
+        id "com.gorylenko.gradle-git-properties" version "2.4.1"
+        id "io.spring.dependency-management" version "1.1.4"
+    }
+}
+
 rootProject.name = 'movie-repo'
+include 'entity'
+include 'main'
+
+

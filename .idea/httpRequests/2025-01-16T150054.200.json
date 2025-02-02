@@ -1,0 +1,16 @@
+[
+  {
+    "id": "cc6b5729-a8d0-4a7c-afec-0d06e2581aa5",
+    "name": "Christopher Nolan",
+    "movies": [
+      "Interstellar"
+    ]
+  },
+  {
+    "id": "474c9d37-390e-42a4-82fc-cfb2eba07ea1",
+    "name": "Quentin Tarantino",
+    "movies": [
+      "Inglourious Basterds"
+    ]
+  }
+]

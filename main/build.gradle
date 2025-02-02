@@ -1,0 +1,80 @@
+plugins {
+    id "org.springframework.boot"
+    id 'io.spring.dependency-management'
+    id 'nu.studer.jooq' version '9.0'
+}
+
+
+dependencies {
+    implementation project(':entity')
+
+    // Spring
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.hibernate.orm:hibernate-core:6.6.5.Final'
+    implementation platform('org.springframework.boot:spring-boot-dependencies:3.1.x')
+
+    // PostgreSQL
+    runtimeOnly 'org.postgresql:postgresql'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+    // JOOQ
+    implementation "org.jooq:jooq-meta-extensions-hibernate:3.19.10"
+    implementation "org.jooq:jooq:3.19.10"
+    implementation "org.jooq:jooq-codegen:3.19.10"
+
+    // JOOQ Generator
+    jooqGenerator "org.jooq:jooq-meta-extensions-hibernate:3.19.10"
+    jooqGenerator project(':entity')
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jooq {
+    version = '3.19.10'
+    edition = nu.studer.gradle.jooq.JooqEdition.OSS
+
+    configurations {
+        main {
+            generateSchemaSourceOnCompilation = true
+
+            generationTool {
+
+                generator {
+                    name = 'org.jooq.codegen.DefaultGenerator'
+                    database {
+                        name = 'org.jooq.meta.extensions.jpa.JPADatabase'
+                        properties {
+                            property {
+                                key = 'packages'
+                                value = 'org.example.entity'
+                            }
+                            property {
+                                key = 'useAttributeConverters'
+                                value = true
+                            }
+                            property {
+                                key = 'unqualifiedSchema'
+                                value = 'none'
+                            }
+                        }
+                    }
+                    generate {
+                        deprecated = false
+                        records = true
+                        immutablePojos = true
+                        fluentSetters = true
+                    }
+                    target {
+                        packageName = 'org.example.generate.jooq'
+                        directory = 'build/generated-src/jooq/main'
+                    }
+                }
+            }
+        }
+    }
+}

@@ -4,18 +4,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc6879c8-ddc5-440a-8f41-a15f9e5293b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jooqTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/util/HibernateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="fc6879c8-ddc5-440a-8f41-a15f9e5293b0" name="Changes" comment="FEAT: added jOOQ, can't seem to figure out why it does not fetch any entities">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f04db594-e6d1-420f-b472-fada5224dfec.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f04db594-e6d1-420f-b472-fada5224dfec/storage_v2/_src_/database/library.uyToCQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f04db594-e6d1-420f-b472-fada5224dfec/storage_v2/_src_/database/library.uyToCQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f04db594-e6d1-420f-b472-fada5224dfec/storage_v2/_src_/database/library.uyToCQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f04db594-e6d1-420f-b472-fada5224dfec/storage_v2/_src_/database/library.uyToCQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2025-01-16T150021.200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2025-01-16T150054.200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2025-01-17T004628.200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2025-01-17T005322.200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2025-01-17T005432.404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2025-01-17T005445.200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entity/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entity/src/main/java/org/example/entity/DAO/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entity/src/main/java/org/example/entity/DAO/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entity/src/main/java/org/example/entity/DAO/StandardEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entity/src/main/java/org/example/entity/DTO/ActorDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entity/src/main/java/org/example/entity/DTO/DirectorDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entity/src/main/java/org/example/entity/DTO/StandardEntityDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/example/entity/DAO/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/example/entity/DAO/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/example/entity/DAO/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/example/entity/DTO/HumanDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/example/entity/DTO/MovieDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/example/util/JooqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/DAO/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/DAO/Actor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/DAO/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/DAO/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/DAO/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/DAO/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/example/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/ActorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/example/controller/ActorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/DirectorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/example/controller/DirectorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/example/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/DAO/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/entity/src/main/java/org/example/entity/DAO/Actor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/DAO/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/entity/src/main/java/org/example/entity/DAO/DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/DAO/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/entity/src/main/java/org/example/entity/DAO/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/DAO/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/example/entity/DAO/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/DAO/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/example/entity/DAO/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/DAO/StandardEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/example/entity/DAO/StandardEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/DTO/ActorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/example/entity/DTO/ActorDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/DTO/DirectorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/example/entity/DTO/DirectorDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/DTO/HumanDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/entity/src/main/java/org/example/entity/DTO/HumanDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/DTO/MovieDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/entity/src/main/java/org/example/entity/DTO/MovieDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/DTO/StandardEntityDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/example/entity/DTO/StandardEntityDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jooqTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/example/jooqTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/ActorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/example/repository/ActorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/DirectorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/example/repository/DirectorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/MovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/example/repository/MovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/ActorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/example/service/ActorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/DirectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/example/service/DirectorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/EntityGenerationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/example/service/EntityGenerationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/example/service/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/util/AppRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/example/util/AppRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/util/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/example/util/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/entity/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,34 +88,24 @@
         <task path="$PROJECT_DIR$/codegen">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/entity">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/repo">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/main">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/entity/main">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="movie-repo" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="movie-repo" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="movie-repo" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="movie-repo" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="movie-repo" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -78,26 +117,35 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "amitedenzon"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;amitedenzon&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/amitedenzon/movie-repo.git",
-    "accountId": "8ef6941b-3608-4342-bf67-47454ffc70cb"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/amitedenzon/movie-repo.git&quot;,
+    &quot;accountId&quot;: &quot;8ef6941b-3608-4342-bf67-47454ffc70cb&quot;
   }
-}]]></component>
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -109,61 +157,74 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build movie-repo.executor": "Run",
-    "Gradle.Build untitled.executor": "Run",
-    "Gradle.movie-repo [assemble].executor": "Profiler#1",
-    "Gradle.movie-repo [build].executor": "Run",
-    "Gradle.movie-repo [clean].executor": "Run",
-    "Gradle.movie-repo [compileAspectJ].executor": "Run",
-    "Gradle.movie-repo [compileJava].executor": "Run",
-    "Gradle.movie-repo [generateH2Jpa].executor": "Run",
-    "Gradle.movie-repo [jar].executor": "Run",
-    "Gradle.movie-repo [jooqCodegen].executor": "Run",
-    "Gradle.movie-repo:codegen [build].executor": "Run",
-    "Gradle.movie-repo:codegen [jooqCodegen].executor": "Run",
-    "Gradle.movie-repo:core [build].executor": "Run",
-    "Gradle.untitled [:Main.main()].executor": "Run",
-    "Gradle.untitled [:org.example.Application.main()].executor": "Run",
-    "Gradle.untitled [build].executor": "Run",
-    "Gradle.untitled [clean].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.Application.executor": "Run",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/amit/Documents/Code/Java/movie-repo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.Build movie-repo.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build untitled.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.movie-repo [assemble].executor&quot;: &quot;Profiler#1&quot;,
+    &quot;Gradle.movie-repo [bootJar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.movie-repo [buildNeeded].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.movie-repo [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.movie-repo [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.movie-repo [compileAspectJ].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.movie-repo [compileJava].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.movie-repo [generateH2Jpa].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.movie-repo [generateJooq].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.movie-repo [jar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.movie-repo [jooqCodegen].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.movie-repo:codegen [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.movie-repo:codegen [jooqCodegen].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.movie-repo:core [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.movie-repo:entity [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.movie-repo:entity [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.movie-repo:main [buildDependents].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.movie-repo:main [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.movie-repo:main [generateJooq].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.movie-repo:repo [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:org.example.Application.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;convert-to-boilerplate&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/amit/Documents/Code/Java/movie-repo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/entity/src/main/resources" />
+      <recent name="$PROJECT_DIR$/entity/main/src/main/java/org/example" />
+      <recent name="$PROJECT_DIR$/main" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/codegen" />
-      <recent name="$PROJECT_DIR$/core" />
-      <recent name="$PROJECT_DIR$/src/main/java/org/example/entity/DTO" />
-      <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main/src/main/java/org/example" />
+      <recent name="$PROJECT_DIR$/repo/src/main/java/org/example" />
+      <recent name="$PROJECT_DIR$/main" />
+      <recent name="$PROJECT_DIR$/main/" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/core" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.entity.DTO" />
@@ -173,7 +234,7 @@
       <recent name="org.example.entities" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.movie-repo [jooqCodegen]">
+  <component name="RunManager" selected="Gradle.movie-repo [build]">
     <configuration name="movie-repo [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -218,7 +279,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="movie-repo [jooqCodegen]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="movie-repo [generateJooq]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -229,7 +290,51 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="jooqCodegen" />
+            <option value="generateJooq" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="movie-repo:entity [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/entity" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="movie-repo:main [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/main" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -241,7 +346,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="movie-repo.main" />
+      <module name="Java.movie-repo.main.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -249,9 +354,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.movie-repo [jooqCodegen]" />
         <item itemvalue="Gradle.movie-repo [build]" />
+        <item itemvalue="Gradle.movie-repo [generateJooq]" />
         <item itemvalue="Gradle.movie-repo [clean]" />
+        <item itemvalue="Gradle.movie-repo:main [build]" />
+        <item itemvalue="Gradle.movie-repo:entity [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -272,8 +379,20 @@
       <option name="presentableId" value="Default" />
       <updated>1736965814899</updated>
       <workItem from="1736966068401" duration="10543000" />
-      <workItem from="1737289319662" duration="10887000" />
+      <workItem from="1737289319662" duration="14088000" />
+      <workItem from="1737363257896" duration="28879000" />
+      <workItem from="1738487074322" duration="668000" />
+      <workItem from="1738489120267" duration="4415000" />
     </task>
+    <task id="LOCAL-00001" summary="FEAT: added jOOQ, can't seem to figure out why it does not fetch any entities">
+      <option name="closed" value="true" />
+      <created>1737361206155</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737361206155</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,8 +410,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Figuring out the weird error" />
-    <option name="LAST_COMMIT_MESSAGE" value="Figuring out the weird error" />
+    <MESSAGE value="FEAT: added jOOQ, can't seem to figure out why it does not fetch any entities" />
+    <option name="LAST_COMMIT_MESSAGE" value="FEAT: added jOOQ, can't seem to figure out why it does not fetch any entities" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
